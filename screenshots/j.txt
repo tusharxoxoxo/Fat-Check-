@@ -1,8 +1,0 @@
-Introduction to Regression
-Types of Regression Models
-Types of Regression Models
-Regression models are of following two types −
-
-Simple regression model − This is the most basic regression model in which predictions are formed from a single, univariate feature of the data.
-
-Multiple regression model − As name implies, in this regression model the predictions are formed from multiple features of the data.
