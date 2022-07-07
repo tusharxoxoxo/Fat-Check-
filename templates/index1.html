@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
+
     <div style="color:black">
         <form action="{{ url_for('predict')}}" method="POST">
-            <h1>Predictive analysis</h1>
+            <h1>FAT CHECK</h1>
             <label for="weight">Weight:</label><input id="first" name="weight"  type="number">
             <label for="height">height:</label><input id="second" name="height" type="number">
             <label for="neck">Neck:</label><input id="third" name="neck"  type="number"><br><br>
@@ -31,12 +34,17 @@
 
         </form>
 
+
+
         <br><br><h3>{{ prediction_bmi }}<h3>
     </div>
 
+
+
+
     <style>
         body {
-            background-color: yellow;
+            background-color: MediumTurquoise;
             text-align: center;
             padding: 10px;
         }
@@ -201,5 +209,6 @@
         }
     </style>
 </body>
+
 </html>
 
